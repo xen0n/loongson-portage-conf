@@ -1,0 +1,40 @@
+x11-libs/libxcb xkb
+dev-vcs/subversion -dso perl
+
+sys-devel/gcc -nls graphite -fixed-point fortran openmp  # fixed-point too time-consuming to build
+sys-devel/binutils -nls
+sys-libs/ncurses tinfo
+
+media-libs/mesa d3d9 egl gles1 gles2 llvm osmesa vdpau xa -vaapi # vaapi -- circular deps
+
+#net-misc/openssh hpn
+
+sys-kernel/e-sources -reiser4 -thinkpad
+
+media-sound/pulseaudio realtime
+
+media-libs/freetype infinality -cleartype_hinting
+
+media-libs/harfbuzz icu
+media-libs/cogl wayland gles2
+app-misc/tracker ffmpeg -gstreamer
+media-libs/libmediaart gtk -qt4 -qt5
+
+net-libs/webkit-gtk webgl gles2 egl -opengl
+media-libs/gst-plugins-bad egl -gles2 opengl
+
+dev-lang/spidermonkey jit
+
+dev-lang/ruby jemalloc
+
+# webkit-gtk build failure
+gnome-base/nautilus -previewer
+
+# temp
+media-video/ffmpeg -samba
+media-video/mplayer -samba
+sys-devel/distcc -gnome
+
+dev-lang/php gd
+
+app-i18n/fcitx opencc

@@ -1,0 +1,7 @@
+GENTOO_MIRRORS=""
+
+#FEATURES="${FEATURES} distcc"
+#FEATURES="${FEATURES} distcc-pump"
+
+MAKEOPTS="-j4"
+#MAKEOPTS="-j12"

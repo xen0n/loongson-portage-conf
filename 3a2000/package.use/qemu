@@ -1,0 +1,6 @@
+app-emulation/qemu static-user virgl vte lzo numa sdl2 tci  # spice
+sys-libs/zlib static-libs
+sys-apps/attr static-libs
+app-arch/bzip2 static-libs
+dev-libs/glib static-libs
+dev-libs/libpcre static-libs
